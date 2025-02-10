@@ -1,0 +1,103 @@
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f4eaea;
+  margin: 0;
+  padding: 0;
+}
+
+.question-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.checkInput div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkInput div:hover {
+  background-color: #6599b6;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #42bdd5;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.result-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 40%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h1 {
+  color: #333;
+}
+
+.result-container p {
+  font-size: 18px;
+}
+
+.result-container button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result-container button:hover {
+  background-color: #218838;
+}
+
+.home-container{
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 40%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.correct {
+  color: green; /* ✅ Bonne réponse en vert */
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red; /* ❌ Mauvaise réponse en rouge */
+  font-weight: bold;
+}
