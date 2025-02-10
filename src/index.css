@@ -93,11 +93,11 @@ button:hover {
 }
 
 .correct {
-  color: green; /* ✅ Bonne réponse en vert */
+  color: green; /* Bonne réponse en vert */
   font-weight: bold;
 }
 
 .incorrect {
-  color: red; /* ❌ Mauvaise réponse en rouge */
+  color: red; /* Mauvaise réponse en rouge */
   font-weight: bold;
 }

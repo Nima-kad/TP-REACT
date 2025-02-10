@@ -12,9 +12,9 @@ function Question({ question, correct_answer, incorrect_answers, onAnswerSelect,
 
                         if (quizSubmitted) {
                             if (answer === correct_answer) {
-                                className = "correct"; // ✅ Réponse correcte en vert
+                                className = "correct"; // Réponse correcte en vert
                             } else if (answer === userAnswer) {
-                                className = "incorrect"; // ❌ Réponse incorrecte en rouge
+                                className = "incorrect"; // Réponse incorrecte en rouge
                             }
                         }
 
